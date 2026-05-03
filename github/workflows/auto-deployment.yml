@@ -20,7 +20,7 @@ jobs:
           [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
           curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
 
-          cd /home/fintechadmin/platform/frontend-test
+          cd /home/muhammadamin/cicd-tutorial
 
           git stash
           git pull origin main
