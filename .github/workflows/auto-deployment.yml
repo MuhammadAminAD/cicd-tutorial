@@ -21,11 +21,13 @@ jobs:
           curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
 
           cd /home/muhammadamin/cicd-tutorial
-
+          
           git stash
           git pull origin main
 
           npm install
+
+          echo "build"
           npm run build
 
           echo "✅ Deployment tugadi!"
