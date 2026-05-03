@@ -6,10 +6,11 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  con
   return (
     <>
+    <p>Nima gap</p>
       <section id="center">
-        <p>salom</p>
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
           <img src={reactLogo} className="framework" alt="React logo" />
